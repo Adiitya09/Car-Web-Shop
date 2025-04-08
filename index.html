@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+          <img src="istockphoto-1408605259-612x612.png" alt="AutoDrive Logo">
+          <h1>AutoDrive</h1>
+        </div>
+     <!--search bar-->   
+        <div class="search-container">
+            <div class="search-wrapper">
+              <i class="fas fa-search"></i> <!-- Font Awesome search icon -->
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+            </div>
+          </div>
+          </header>
+          <hr style="border: 1px solid rgb(183, 167, 167)">
+        </div>
+        <!--navbar-->
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Categories
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">SUV</a>
+              <a href="#">Sedan</a>
+              <a href="#">Hachback</a>
+              <a href="#">MPV</a>
+            </div>
+          </div>
+          <a href="#">News&Review</a>
+          <a href="#">Acceories</a>
+          <a href="#">About cars</a>
+        </div>
+      
+        <section class="intro">
+        <div class="image-container" alt="cars">
+          <img src="car.png">
+          
+          <div class="search-widget">
+            <h2>Find your right car</h2>
+            <div class="dropdowns">
+              <select id="budget">
+                <option>Select Budget</option>
+                <option>1-5 Lakh</option>
+                <option>5-10 Lakh</option>
+                <option>10-15 Lakh</option>
+                <option>20-35 Lakh</option>
+                <option>50 Lakh-1 Crore</option>
+                <option>Above 1 Crore</option>
+              </select>
+              <select id="type">
+                <option>All Vehicle Types</option>
+                <option>Sedan</option>
+                <option>SUV</option>
+                <option>Hachback</option>
+                <option>MPV</option>
+              </select>
+            </div>
+            <button class="search-button" id="filter-btn">Search</button>
+            
+          </div>
+        </div>
+       
+        
+      </section>
+
+        <!--cart-->
+        <section class="electric-cars">
+          <h2 class="searched-title">Most Searched Cars</h2>
+          <div class="scroll-container">
+            <button class="scroll-btn left" onclick="scrollLeft('electric-cars')">←</button>
+            <div class="scrollable" id="electric-cars">
+
+          
+          <!--cart  1-->
+          
+          <div class="EV" data-budget="12-17" data-type="SUV">
+            <img src="scorpio n" alt="Car 1">
+            <h3>Mahindra Scorpio n</h3>
+            <p>₹12.49-17.19 Lakh</p>
+            <a href="#" class="card-button">View More</a>
+          </div>
+
+            <!--cart 2-->
+            <div class="EV">
+              <img src="bolero" alt="Car 2">
+              <h3>Mahindra Bolero</h3>
+              <p>₹12.49-17.19 Lakh</p>
+              <a href="#" class="card-button">View More</a>
+            </div>
+
+            <!--cart 3-->
+            <div class="EV">
+                <img src="punch" alt="Car 3">
+                <h3>Tata Punch</h3>
+                <p>₹12.49-17.19 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+
+            <!--cart 4-->
+            <div class="EV">
+              <img src="creata.jpeg" alt="Electric Car 4">
+              <h3>Hyundai Creata</h3>
+              <p>₹12.49-17.19 Lakh</p>
+              <a href="#" class="card-button">View More</a>
+            </div>
+
+            <!--cart 5-->
+            <div class="EV">
+              <img src="thar" alt="Electric Car 5">
+              <h3>Mahindra Thar Roxx</h3>
+              <p>₹12.99-23.09 Lakh</p>
+              <a href="#" class="card-button">View More</a>
+            </div>
+
+            <!--cart 6-->
+            <div class="EV">
+              <img src="fortuner" alt="Car 6">
+              <h3>Toyota Fortuner</h3>
+              <p>₹33.43-51.94 Lakh</p>
+              <a href="#" class="card-button">View More</a>
+            </div>
+
+            <!--cart 7-->
+            <div class="EV">
+              <img src="xuv700" alt="Car 7">
+              <h3>Mahindra XUV 700</h3>
+              <p>₹13.99-25.74 Lakh</p>
+              <a href="#" class="card-button">View More</a>
+            </div>
+            
+          </div>
+        </div>
+        <button class="scroll-btn right" onclick="scrollRight('electric-cars')">→</button>
+          </div><a href="MostSearched.html" class="view-all">View All Car</a>
+        
+      </section>
+
+        <!--popular companies-->
+        <section class="most-searched">
+          <h2 class="searched-title">Popular Companies</h2>
+          <div class="scroll-container">
+            <button class="scroll-btn left" onclick="scrollLeft('most-searched')">←</button>
+            <div class="scrollable" id="most-searched">
+
+              <a href="Toyota.html" class="car-item">
+                <img src="toyota.webp" alt="Car 1">
+                <h3>TOYOTA </h3>
+              </a>
+
+              <a href="#" class="car-item">
+                <img src="hyundai.webp" alt="Car 2">
+                <h3>HYUNDAI </h3>
+              </a>
+
+              <a href="Maruti.html" class="car-item">
+                <img src="maruti.webp" alt="Car 3">
+                <h3>MARUTI SUZUKI </h3>
+                
+              </a>
+      
+              <a href="Skoda.html" class="car-item">
+                <img src="skoda.webp" alt="Car 3">
+                <h3>SKODA </h3>
+                
+              </a>
+      
+              <a href="Mahindra.html" class="car-item">
+                <img src="mahindra.webp" alt="Car 3">
+                <h3>MAHINDRA </h3>
+                
+              </a>
+      
+              <a href="Tata.html" class="car-item">
+                <img src="tata.webp" alt="Car 3">
+                <h3>TATA</h3>
+                
+              </a>
+      
+              <a href="Honda.html" class="car-item">
+                <img src="honda.webp" alt="Car 3">
+                <h3>HONDA </h3>
+                
+              </a>
+      
+              <a href="KIA.html" class="car-item">
+                <img src="kia.webp" alt="Car 3">
+                <h3>KIA </h3>
+                
+              </a>
+      
+              <a href="Volkswagen.html" class="car-item">
+                <img src="volkswagen.webp" alt="Car 3">
+                <h3>VOLKSWAGEN </h3>
+              </a>
+
+              <a href="MG.html" class="car-item">
+                <img src="mg.webp" alt="Car 3">
+                <h3>MG </h3>
+              </a>
+
+              <a href="Citron.html" class="car-item">
+                <img src="citroen.webp" alt="Car 3">
+                <h3>CITROEN </h3>
+              </a>
+
+              <a href="Jeep.html" class="car-item">
+                <img src="jeep.webp" alt="Car 3">
+                <h3>JEEP </h3>
+              </a>
+
+              <a href="Renault.html" class="car-item">
+                <img src="renault.webp" alt="Car 3">
+                <h3>RENAULT </h3>
+              </a>
+
+              <a href="Nissan.html" class="car-item">
+                <img src="nissan.webp" alt="Car 3">
+                <h3>NISSAN </h3>
+              </a>
+
+              <a href="Force.html" class="car-item">
+                <img src="force.webp" alt="Car 3">
+                <h3>FORCE </h3>
+              </a>
+            </div>
+            <button class="scroll-btn right" onclick="scrollRight('most-searched')">→</button>
+          </div><a href="allBranda.html" class="view-all">View All Companies</a>
+        </section>
+      
+        <!--electric car-->
+        <section class="electric-cars">
+          <h2 class="searched-title">Electric Cars</h2>
+          <div class="scroll-container">
+            <button class="scroll-btn left" onclick="scrollLeft('scroll-container')">←</button>
+            <div class="scrollable" id="electric-cars">
+
+              <!--car 1-->
+              <div class="EV">
+                <img src="tata nexon ev.webp" alt="Electric Car 1">
+                <h3>Tata Nexon EV</h3>
+                <p>₹12.49-17.19 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <!--car 2-->
+              <div class="EV">
+                <img src="mg zs ev.webp" alt="Electric Car 2">
+                <h3>MG ZS EV</h3>
+                <p>₹18.98-25.75 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <!--car 3-->
+              <div class="EV">
+                <img src="Ioniq-5-Electric.jpg" alt="Electric Car 3">
+                <h3>Hyundai Ioniq 5</h3>
+                <p>₹46.05 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <!--car 4-->
+              <div class="EV">
+                <img src="creta electric" alt="Electric Car 3">
+                <h3>Hyundai Creta Electric</h3>
+                <p>₹17.99-24.38 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <!--car 5-->
+              <div class="EV">
+                <img src="windsor ev" alt="Electric Car 3">
+                <h3>MG Windsor EV</h3>
+                <p>₹14-16 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <!--car 6-->
+              <div class="EV">
+                <img src="comet.webp" alt="Electric Car 3">
+                <h3>MG Comet EV</h3>
+                <p>₹14-16 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <!--car 7-->
+              <div class="EV">
+                <img src="xev" alt="Electric Car 3">
+                <h3>Mahindra XEV 9e</h3>
+                <p>₹21.90-30.50 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+               <!--car 8-->
+               <div class="EV">
+                <img src="punch ev" alt="Electric Car 3">
+                <h3>Tata Punch EV</h3>
+                <p>₹7.99-14.29 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <!--car 9-->
+              <div class="EV">
+                <img src="xuv 400" alt="Electric Car 3">
+                <h3>Manhindra XUV400 EV</h3>
+                <p>₹16.74-17.69 Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              
+            </div>
+            <button class="scroll-btn right" onclick="scrollRight('electric-cars')">→</button>
+          </div><a href="EVcars.html" class="view-all">View All Electric  Cars</a>
+        </section>
+
+        <!--comparision-->
+        <section class="comparision">
+          <h2 class="searched-title">Popular Comparision</h2>
+          <div class="scroll-container">
+            <button class="scroll-btn left" onclick="scrollLeft('electric-cars')">←</button>
+            <div class="scrollable" id="electric-cars">
+
+              <!--car 1-->
+              <div class="com">
+                <img src="Toyota Hyrider vs Maruti Grand Vitara.avif" alt="Electric Car 1">
+                <h3>Toyota Hyrider vs Maruti Grand Vitara</h3>
+                <p>₹11.14-19.99Lakh vs  ₹10.99-20.09Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+
+              <!--car 2-->
+              <div class="com">
+                <img src="rumion vs ertiga.jpg" alt="Electric Car 1">
+                <h3>Toyota Hyrider vs Maruti Grand Vitara</h3>
+                <p>₹11.14-19.99Lakh vs  ₹10.99-20.09Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+
+              <!--car 3-->
+              <div class="com">
+                <img src="taisor vs fronx.jpg" alt="Electric Car 1">
+                <h3>Toyota Taiser vs Maruti Fronx</h3>
+                <p>₹7.74-13.04Lakh vs  ₹7.51-13.04Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+
+              <!--car 4-->
+              <div class="com">
+                <img src="creata vs seltos.avif" alt="Electric Car 1">
+                <h3>Hyundai Creta vs Kia Seltos</h3>
+                <p>₹11.11-20.42Lakh vs ₹11.13-20.51Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+
+              <!--car 5-->
+              <div class="com">
+                <img src="xl6 vs ertiga.avif" alt="Electric Car 1">
+                <h3>Hyundai Creta vs Kia Seltos</h3>
+                <p>₹11.11-20.42Lakh vs ₹11.13-20.51Lakh</p>
+                <a href="#" class="card-button">View More</a>
+              </div>
+              <button class="scroll-btn right" onclick="scrollRight('electric-cars')">→</button>
+          </div><a href="#" class="view-all">View All Comparision</a>
+        </section>
+              
+        
+        <!--footer-->
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h3>About Us</h3>
+              <p>We provide the latest car news, reviews, and comparisons to help you make the best decision.</p>
+            </div>
+            <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">News & Reviews</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">About Cars</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2025 AutoDrive. All Rights Reserved.</p>
+          </div>
+        </footer> 
+       
+
+        <script src="js.js"></script>
+
+     
+</body>
+</html>

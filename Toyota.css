@@ -1,0 +1,165 @@
+body{
+    background-color: #f4f4f4;
+  }
+.car {
+    
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.car img{
+  width: 100%;
+}
+.heading{
+    padding-left: 300px;
+    padding-top: 140px;
+}
+.intro{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 5px;
+}
+.title{
+    padding-left: 300px;
+    padding-top: 10px;
+}
+.car-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Car Image */
+.car-image img {
+    width: 320px;
+    border-radius: 8px;
+}
+
+/* Car Details */
+.car-details {
+    flex: 1;
+    padding-left: 55px;
+}
+
+.car-details h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+.specs {
+    font-size: 14px;
+    color: #777;
+    margin: 4px 0;
+}
+
+/* Offer Button */
+.offer-btn {
+    background: none;
+    border: 2px solid #ff5722;
+    color: #ff5722;
+    padding: 6px 35px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+   
+}
+.button{
+    padding-top: 20px;
+}
+
+.offer-btn:hover {
+    background: #ff5722;
+    color: white;
+}
+
+/* Wishlist Icon */
+.wishlist {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+}
+.card{
+    padding-left: 300px;
+    padding-top: 10px;
+}
+/*footer*/
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #f39c12;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
